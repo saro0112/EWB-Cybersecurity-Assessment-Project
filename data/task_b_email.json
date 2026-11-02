@@ -1,0 +1,23 @@
+{
+  "sender": "awards@campus-awards.example",
+  "reply_to": "help@personal-awards.example",
+  "subject": "FINAL WARNING \u2013 Scholarship expires in 20 minutes",
+  "requests": [
+    "College password",
+    "One-time password (OTP)",
+    "Photo of student ID card"
+  ],
+  "warning_signs": [
+    "Urgent deadline pressures the recipient to act without checking.",
+    "Reply-To address differs from the sender and uses an unrelated-looking domain.",
+    "Legitimate support staff should not ask for a password or OTP.",
+    "Request for an identity document through an unsolicited email is suspicious.",
+    "Message discourages contacting the college office, preventing independent verification."
+  ],
+  "verification_steps": [
+    "Do not reply, click links, open attachments, or provide credentials.",
+    "Contact the college scholarship office using a phone number or website address already known to be official.",
+    "Report the message using the college's approved reporting channel.",
+    "HTTPS encrypts a connection but does not prove that a website or sender is trustworthy; display names can be misleading."
+  ]
+}

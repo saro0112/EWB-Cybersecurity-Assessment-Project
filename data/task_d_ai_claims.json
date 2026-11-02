@@ -1,0 +1,32 @@
+[
+  {
+    "claim": "An email is safe because it uses HTTPS.",
+    "problem": "HTTPS encrypts traffic but does not establish that a sender or site is legitimate.",
+    "correction": "Check the domain, context, and request through an independent trusted channel.",
+    "recommendation": "Do not enter credentials through an unsolicited email link; contact the institution using known official details."
+  },
+  {
+    "claim": "A different IP address proves an attacker stole the password.",
+    "problem": "IP differences can result from mobile networks, VPNs, travel, or shared networks.",
+    "correction": "Treat the IP as one data point and correlate it with other sign-in evidence and user confirmation.",
+    "recommendation": "Preserve logs and ask authorised IT staff to review the sign-in details."
+  },
+  {
+    "claim": "MFA prevents every account compromise.",
+    "problem": "MFA reduces risk but can be defeated or bypassed in some circumstances, including approval of an unexpected prompt.",
+    "correction": "MFA is one layer in a broader account-security approach.",
+    "recommendation": "Use phishing-resistant MFA where available and deny unexpected prompts."
+  },
+  {
+    "claim": "Suspicious logs should be deleted.",
+    "problem": "Deleting logs can destroy evidence needed for investigation.",
+    "correction": "Relevant records should be preserved according to the organisation's process.",
+    "recommendation": "Do not alter logs; report the concern to authorised IT staff."
+  },
+  {
+    "claim": "Students should send passwords to support teams.",
+    "problem": "Passwords and OTPs should not be shared with support staff.",
+    "correction": "Support teams should use approved identity-verification and account-recovery processes.",
+    "recommendation": "Never send passwords or OTPs; contact support through a verified official channel."
+  }
+]

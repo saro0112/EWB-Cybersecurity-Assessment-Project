@@ -1,0 +1,9 @@
+timestamp,event_type,status,ip_address,mfa_status,session
+2026-10-18 09:00 IST,password,success,192.0.2.10,not_applicable,none
+2026-10-18 09:01 IST,mfa,success,192.0.2.10,approved,none
+2026-10-18 10:14 IST,password,failed,198.51.100.23,not_applicable,none
+2026-10-18 10:15 IST,password,failed,198.51.100.23,not_applicable,none
+2026-10-18 10:16 IST,password,success,198.51.100.23,not_applicable,none
+2026-10-18 10:17 IST,mfa,challenge,198.51.100.23,denied,none
+2026-10-18 10:18 IST,mfa,success,198.51.100.23,approved,none
+2026-10-18 10:20 IST,session,created,198.51.100.23,approved,session-001

@@ -1,0 +1,47 @@
+[
+  {
+    "risk": "Weak or short password",
+    "asset": "Student account and stored coursework",
+    "confidentiality": "An unauthorised person may read private files.",
+    "integrity": "They may change account details or coursework.",
+    "availability": "They may lock the student out.",
+    "control": "Use a long, unique passphrase and a password manager where permitted.",
+    "limitation": "A strong password cannot prevent every phishing or device compromise."
+  },
+  {
+    "risk": "Password reuse",
+    "asset": "Student account and other accounts using the same password",
+    "confidentiality": "A password exposed on one service may expose other accounts.",
+    "integrity": "An intruder may alter information in reused-password accounts.",
+    "availability": "Accounts may be locked or taken over.",
+    "control": "Use a unique password for every account and change reused passwords.",
+    "limitation": "Unique passwords do not protect against malware or deceptive sign-in pages."
+  },
+  {
+    "risk": "Approving an unexpected MFA prompt",
+    "asset": "Student account and identity data",
+    "confidentiality": "An unexpected approval may allow an unauthorised sign-in.",
+    "integrity": "An intruder may change account information.",
+    "availability": "The student may lose access.",
+    "control": "Deny unexpected prompts and report repeated requests to IT.",
+    "limitation": "MFA is an additional layer, not a guarantee against every attack."
+  },
+  {
+    "risk": "Postponing security updates",
+    "asset": "Laptop, operating system, and project files",
+    "confidentiality": "Unpatched weaknesses may expose stored information.",
+    "integrity": "Malicious software may modify files.",
+    "availability": "A device may become unstable or unavailable.",
+    "control": "Install updates promptly through trusted system settings.",
+    "limitation": "Updates reduce known risks but cannot eliminate all vulnerabilities."
+  },
+  {
+    "risk": "Friend uses laptop while student is signed in",
+    "asset": "Signed-in student session and local project files",
+    "confidentiality": "The friend may see private account information.",
+    "integrity": "Files or settings may be changed accidentally or intentionally.",
+    "availability": "Files may be moved or deleted.",
+    "control": "Lock the screen when stepping away and use separate user accounts.",
+    "limitation": "Physical access controls depend on consistent use and do not replace backups."
+  }
+]
